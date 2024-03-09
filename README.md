@@ -44,7 +44,7 @@ cd home-lab-dashboard-flask
 ```bash
 
 pip install -r requirements.txt
-
+```
 ## Usage
 
 To run the Home Lab Dashboard, use the following command:
