@@ -38,11 +38,10 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
 cd home-lab-dashboard-flask
-
+```
 ### Install Dependencies
 
 ```bash
-
 pip install -r requirements.txt
 ```
 ## Usage
@@ -50,9 +49,8 @@ pip install -r requirements.txt
 To run the Home Lab Dashboard, use the following command:
 
 ```bash
-
 python run_dashboard.py
-
+```
 Visit http://localhost:5000 in your web browser to access the dashboard.
 
 ## Configuration
