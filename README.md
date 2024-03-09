@@ -24,12 +24,20 @@ Follow these steps to set up the Home Lab Dashboard on your local machine:
 
 Make sure you have the following installed:
 
-- Python (version)
-- Flask (version)
-- Any other dependencies...
+- python (>=3.11.0)
+- flask (>=2.3.2)
+- art (>=6.0)
+- coloredlogs (>=15.0.1)
+- python-dotenv (>=1.0.1)
+- waitress (>=2.1.2)
+
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
 cd home-lab-dashboard-flask
+
+### Install Dependencies
+pip install -r requirements.txt
+
