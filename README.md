@@ -7,6 +7,7 @@
 ## Overview
 
 The Home Lab Dashboard is an innovative Flask-based web application meticulously crafted to facilitate the efficient management and monitoring of your home lab environment. Tailored for simplicity and practicality, this dashboard offers a user-friendly interface, empowering users to seamlessly interact with various facets of their home lab setup. Whether overseeing configurations, tracking performance metrics, or managing resources, the Home Lab Dashboard streamlines these tasks, enhancing the overall user experience and optimizing the utilization of your home lab infrastructure.
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -38,25 +39,27 @@ Make sure you have the following installed:
 git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
 cd home-lab-dashboard-flask
 
-Install Dependencies
+### Install Dependencies
 
-bash
+```bash
 
 pip install -r requirements.txt
 
-Usage
+## Usage
 
 To run the Home Lab Dashboard, use the following command:
 
-bash
+```bash
 
-python app.py
+python run_dashboard.py
 
 Visit http://localhost:5000 in your web browser to access the dashboard.
-Configuration
 
-Customize the dashboard by editing the configuration file located at config/config.yaml.
-Contributing
+## Configuration
+
+Customize the port number by editing the configuration file located at apps/config/config.py
+
+## Contributing
 
 We welcome contributions! Follow these steps to contribute:
 
@@ -65,12 +68,7 @@ We welcome contributions! Follow these steps to contribute:
     Make your changes and commit them.
     Submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License.
-Acknowledgments
-
-    Mention any libraries, tools, or inspirations used in your project.
-
-Feel free to customize this template to fit the specifics of your project. Add or remove sections as needed, and provide detailed information to make it easy for others to understand and contribute to your Home Lab Dashboard project.
 
