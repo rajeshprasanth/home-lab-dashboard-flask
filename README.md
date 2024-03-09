@@ -61,10 +61,10 @@ Customize the port number by editing the configuration file located at apps/conf
 
 We welcome contributions! Follow these steps to contribute:
 
-    Fork the repository.
-    Create a new branch.
-    Make your changes and commit them.
-    Submit a pull request.
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Submit a pull request.
 
 ## License
 
