@@ -38,6 +38,39 @@ Make sure you have the following installed:
 git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
 cd home-lab-dashboard-flask
 
-### Install Dependencies
+Install Dependencies
+
+bash
+
 pip install -r requirements.txt
+
+Usage
+
+To run the Home Lab Dashboard, use the following command:
+
+bash
+
+python app.py
+
+Visit http://localhost:5000 in your web browser to access the dashboard.
+Configuration
+
+Customize the dashboard by editing the configuration file located at config/config.yaml.
+Contributing
+
+We welcome contributions! Follow these steps to contribute:
+
+    Fork the repository.
+    Create a new branch.
+    Make your changes and commit them.
+    Submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+Acknowledgments
+
+    Mention any libraries, tools, or inspirations used in your project.
+
+Feel free to customize this template to fit the specifics of your project. Add or remove sections as needed, and provide detailed information to make it easy for others to understand and contribute to your Home Lab Dashboard project.
 
