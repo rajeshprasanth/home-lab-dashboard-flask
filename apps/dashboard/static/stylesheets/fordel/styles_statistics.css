@@ -1,0 +1,148 @@
+/* 
+====================================================================
+CSS styling for Alert Monitor page
+section: dashboard
+====================================================================
+*/.col-md-4:empty {
+  display: table-cell;
+  height: 75px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-top-color: rgb(154, 186, 217);
+  border-right-color: rgb(154, 186, 217);
+  border-bottom-color: rgb(154, 186, 217);
+  border-left-color: rgb(154, 186, 217);
+  border-spacing: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.tg td {
+  background-color: rgb(235, 245, 255);
+  border-top-color: rgb(154, 186, 217);
+  border-right-color: rgb(154, 186, 217);
+  border-bottom-color: rgb(154, 186, 217);
+  border-left-color: rgb(154, 186, 217);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  color: rgb(68, 68, 68);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  word-break: normal;
+}
+
+.tg th {
+  background-color: rgb(64, 156, 255);
+  border-top-color: rgb(154, 186, 217);
+  border-right-color: rgb(154, 186, 217);
+  border-bottom-color: rgb(154, 186, 217);
+  border-left-color: rgb(154, 186, 217);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  word-break: normal;
+}
+
+.tg .tg-3rzj {
+  background-color: rgb(255, 204, 103);
+  border-top-color: rgb(49, 102, 255);
+  border-right-color: rgb(49, 102, 255);
+  border-bottom-color: rgb(49, 102, 255);
+  border-left-color: rgb(49, 102, 255);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-j380 {
+  background-color: rgb(49, 102, 255);
+  border-top-color: rgb(49, 102, 255);
+  border-right-color: rgb(49, 102, 255);
+  border-bottom-color: rgb(49, 102, 255);
+  border-left-color: rgb(49, 102, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-pdro {
+  background-color: rgb(0, 153, 1);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-y0wm {
+  background-color: rgb(254, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-amwm {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-7k3a {
+  background-color: rgb(210, 228, 252);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg-sort-header:hover::after {
+  visibility: visible;
+}
+
+.tg-sort-desc::after,
+.tg-sort-asc:hover::after {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+.tg .tg-bp1h {
+  background-color: rgb(210, 228, 252);
+  font-family: serif !important;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg .tg-qxrv {
+  font-family: serif !important;
+  text-align: left;
+  vertical-align: top;
+}

@@ -1,0 +1,19 @@
+/* 
+====================================================================
+CSS styling for Alert Monitor page
+section: Dashboard bar
+====================================================================
+*/
+
+
+canvas {
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.chart-container {
+  padding: 3px;
+}
+

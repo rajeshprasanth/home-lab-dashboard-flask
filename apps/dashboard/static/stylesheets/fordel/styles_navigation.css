@@ -1,0 +1,20 @@
+/* 
+====================================================================
+CSS styling for Alert Monitor page
+section: navigation bar
+====================================================================
+*/
+
+.nav-theme{
+	background-image: linear-gradient(to top, rgba(140, 140, 140, 50), rgba(200, 200, 200, 200));	
+	background-position: top left;	
+	background-size: 100%;	
+	background-repeat: repeat;
+	
+}
+
+.nav-item {
+  margin: 8px 8px 8px 8px;
+  max-width: auto;
+  border: 0 solid rgb(33, 37, 41);
+}
