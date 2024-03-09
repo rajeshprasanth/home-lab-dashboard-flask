@@ -90,7 +90,7 @@ Now, you have the "home-lab-dashboard-flask" project installed and running withi
 
   ```bash
   deactivate
-```
+    ```
 
 ## Usage
 
