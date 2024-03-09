@@ -43,16 +43,53 @@ Make sure you have the following installed:
 - waitress (>=2.1.2)
 
 
-### Clone the Repository
+## Installation
 
-```bash
-git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
-cd home-lab-dashboard-flask
-```
-### Install Dependencies
+1. **Clone the Repository:**
 
-```bash
-pip install -r requirements.txt
+    ```bash
+    git clone https://github.com/rajeshprasanth/home-lab-dashboard-flask.git
+    cd home-lab-dashboard-flask
+    ```
+
+2. **Create a Virtual Environment:**
+
+   - On Windows:
+
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+
+   - On macOS/Linux:
+
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Home Lab Dashboard:**
+
+    ```bash
+    python app.py
+    ```
+
+5. **Access the Dashboard:**
+
+    Open your web browser and go to [http://localhost:5000](http://localhost:5000) to access the Home Lab Dashboard.
+
+Now, you have the "home-lab-dashboard-flask" project installed and running within a virtual environment. Remember to activate the virtual environment (`venv`) whenever you work on the project and deactivate it when you're done:
+
+- To deactivate the virtual environment:
+
+  ```bash
+  deactivate
 ```
 ## Usage
 
