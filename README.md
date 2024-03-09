@@ -8,12 +8,6 @@
 
 The Home Lab Dashboard is a Flask-based web application designed to help you manage and monitor your home lab environment. It provides a user-friendly interface to interact with different aspects of your lab setup.
 
-## Features
-
-- **Feature 1:** Brief description of feature 1.
-- **Feature 2:** Brief description of feature 2.
-- ...
-
 ## Table of Contents
 
 - [Installation](#installation)
