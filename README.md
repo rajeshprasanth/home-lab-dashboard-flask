@@ -43,7 +43,7 @@ Make sure you have the following installed:
 - waitress (>=2.1.2)
 
 
-## Installation
+### Installation
 
 1. **Clone the Repository:**
 
@@ -91,6 +91,7 @@ Now, you have the "home-lab-dashboard-flask" project installed and running withi
   ```bash
   deactivate
 ```
+
 ## Usage
 
 To run the Home Lab Dashboard, use the following command:
