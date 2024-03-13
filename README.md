@@ -21,21 +21,27 @@ The Home Lab Dashboard is an innovative Flask-based web application meticulously
 ## Table of Contents
 
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
+- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contacts](#contacts)
+- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
-Follow these steps to set up the Home Lab Dashboard on your machine:
+Follow these steps to set up the Home Lab Dashboard on your local machine:
 
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Make sure you have the following installed:
 
-- Python 3.x installed on your system.
+- python (>=3.11.0)
+- flask (>=2.3.2)
+- art (>=6.0)
+- coloredlogs (>=15.0.1)
+- python-dotenv (>=1.0.1)
+- waitress (>=2.1.2)
+
 
 ### Installation
 
@@ -71,7 +77,7 @@ Before you begin, ensure you have met the following requirements:
 4. **Run the Home Lab Dashboard:**
 
     ```bash
-    python dashboard.py
+    python app.py
     ```
 
 5. **Access the Dashboard:**
@@ -86,114 +92,18 @@ Now, you have the "home-lab-dashboard-flask" project installed and running withi
   deactivate
     ```
 
-## Configuration Settings
-
-Before running the application, ensure you have configured the following settings in `dashboard.py`:
-
-- **Logging Configuration:** Adjust logging settings in the `RotatingFileHandler` initialization to suit your requirements.
-  - Example:
-    ```python
-    log_file = "logs/flask.log"
-    handler = RotatingFileHandler(log_file, maxBytes=100000, backupCount=1)
-    handler.setLevel(logging.INFO)
-    app.logger.addHandler(handler)
-    ```
-
-- **Server Configuration:** Customize server options such as `bind`, `workers`, `threads`, `loglevel`, `accesslog`, and `errorlog` as per your deployment needs. The default settings should work in most cases.
-  - Example (for Gunicorn):
-    ```python
-    options = {
-        'bind': f'{ip_address}:{port}',
-        'workers': 4,
-        'threads': 2,
-        'loglevel': 'info',
-        'accesslog': 'logs/gunicorn-access.log',
-        'errorlog': 'logs/gunicorn-error.log'
-    }
-    ```
-  - Example (for Waitress):
-    ```python
-    log_file = 'logs/waitress.log'
-    serve(app, host=ip_address, port=port, threads=4, ident=None, _quiet=False)
-    ```
-
-Ensure that these configurations are appropriately set according to your application requirements and deployment environment. In most cases, the default settings should suffice.
-
-### data.json File Format
-The `data.json` file serves as a central repository for storing information about various components within your network infrastructure. It follows a structured format to ensure easy parsing and integration with the Flask application. Let's delve deeper into each component of the JSON structure:
-
- - **Category:** The `Category` field categorizes each component based on its type or function within the network. This allows for easy organization and filtering of components on the dashboard. Example categories include "Network", "RemoteAccess", "Infrastructure", "Storage", and "VirtualMachine".
-
- - **Label:** The `Label` field provides a human-readable label or name for each component. This label is typically displayed on the dashboard to identify the component to users. It should be descriptive and easily recognizable.
-
- - **Icon:** The `Icon` field contains the path to an icon image representing the component. Icons enhance the visual representation of components on the dashboard, making it easier for users to identify them at a glance. Ensure that the icon path is correct and accessible.
-
- - **Link1 and Link2** The `Link1` and `Link2` fields represent URLs associated with the component. These links provide direct access to the component's management interface, console, or other relevant resources. `Link1` typically serves as the primary link, while `Link2` can be used for additional resources or fallback links.
-
-#### Example:
-
-```json
-{
-    "Category": "Network",
-    "Label": "Router 1",
-    "Icon": "static/logos/Wireless_Router.svg",
-    "Link1": "http://wlsrt.inet0.internal.das",
-    "Link2": "http://192.168.1.1"
-}
-
-```
-##### Explanation:
-
- - **Category:** "Network"
- - **Label:** "Router 1"
- - **Icon:** "static/logos/Wireless_Router.svg"
- - **Link1:** "http://wlsrt.inet0.internal.das"
- - **Link2:** "http://192.168.1.1"
-
-This example represents a network router labeled "Router 1". It is categorized under "Network" and is associated with an icon representing a wireless router. The Link1 directs to an internal management interface, while Link2 provides access via the router's IP address.
-
-##### Notes:
- - Ensure that the JSON file is properly formatted and valid to prevent errors during data loading.
- - You can customize the structure and fields as per your specific application requirements.
- - Icons should be visually representative of the component to aid user recognition and navigation.
-
-By maintaining information in this structured format, you can easily manage and visualize your network components within the Flask application's dashboard, providing users with comprehensive insights into your infrastructure.
-
 ## Usage
 
-### Running with Flask built-in server
-Start the application using Flask's built-in server with the following command:
+To run the Home Lab Dashboard, use the following command:
 
 ```bash
-python dashboard.py
+python run_dashboard.py
 ```
-This will start the application using Flask's built-in development server. The application will be accessible at http://127.0.0.1:5000/ by default.
+Visit http://localhost:5000 in your web browser to access the dashboard.
 
-### Running with Gunicorn server
+## Configuration
 
-Deploy your application with Gunicorn for improved performance and scalability:
-```bash
-python dashboard.py gunicorn --ip <ip_address> --port <port_number>
-```
-Replace <ip_address> and <port_number> with your desired IP address and port. Gunicorn provides improved performance and scalability, suitable for production deployments.
-### Running with Waitress server
-For production-ready deployments, utilize Waitress server:
-```bash
-python dashboard.py waitress --ip <ip_address> --port <port_number>
-```
-Similar to Gunicorn, Waitress is another production-ready server that can be used to deploy the application. Replace <ip_address> and <port_number> accordingly.
-
-### Accessing the Dashboard
-
-Once the application is running, you can access the dashboard by opening a web browser and navigating to the URL provided by the server. Depending on the server used and the configured IP address and port, the URL may vary. By default, the dashboard can be accessed at http://127.0.0.1:5000/.
-
-### Customization and Development
-
-Feel free to customize the application according to your needs. You can modify the HTML templates (templates/) and static files (static/) to change the appearance and functionality of the dashboard. Additionally, you can extend the functionality of the application by adding new routes and features to dashboard.py.
-
-### Stopping the Application
-
-To stop the application, simply press Ctrl + C in the terminal where the application is running. This will gracefully shut down the server, and you'll be returned to the command prompt.
+Customize the port number by editing the configuration file located at apps/config/config.py
 
 ## Contributing
 
@@ -206,14 +116,5 @@ We welcome contributions! Follow these steps to contribute:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
-
-## Contact
-
-If you have any questions, feedback, or suggestions regarding the project, feel free to contact us:
-
-- **Email:** [rajeshprasanth@rediffmail.com](mailto:rajeshprasanth@rediffmail.com)
-- **GitHub Issues:** [Project Issues](https://github.com/rajeshprasanth/home-lab-dashboard-flask/issues)
-
-We appreciate your interest in our project and welcome any contributions or ideas you may have!
+This project is licensed under the MIT License.
 
