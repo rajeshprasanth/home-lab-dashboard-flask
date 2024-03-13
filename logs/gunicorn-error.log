@@ -1,0 +1,52 @@
+[2024-03-09 17:02:10 +0530] [4645] [INFO] Starting gunicorn 21.2.0
+[2024-03-09 17:02:10 +0530] [4645] [INFO] Listening at: http://127.0.0.1:5000 (4645)
+[2024-03-09 17:02:10 +0530] [4645] [INFO] Using worker: gthread
+[2024-03-09 17:02:10 +0530] [4646] [INFO] Booting worker with pid: 4646
+[2024-03-09 17:02:10 +0530] [4647] [INFO] Booting worker with pid: 4647
+[2024-03-09 17:02:10 +0530] [4648] [INFO] Booting worker with pid: 4648
+[2024-03-09 17:02:10 +0530] [4649] [INFO] Booting worker with pid: 4649
+[2024-03-09 17:02:18 +0530] [4645] [INFO] Handling signal: int
+[2024-03-09 17:02:18 +0530] [4649] [INFO] Worker exiting (pid: 4649)
+[2024-03-09 17:02:18 +0530] [4647] [INFO] Worker exiting (pid: 4647)
+[2024-03-09 17:02:18 +0530] [4648] [INFO] Worker exiting (pid: 4648)
+[2024-03-09 17:02:18 +0530] [4646] [INFO] Worker exiting (pid: 4646)
+[2024-03-09 17:02:19 +0530] [4645] [INFO] Shutting down: Master
+[2024-03-09 17:04:29 +0530] [4887] [INFO] Starting gunicorn 21.2.0
+[2024-03-09 17:04:29 +0530] [4887] [INFO] Listening at: http://127.0.0.1:5000 (4887)
+[2024-03-09 17:04:29 +0530] [4887] [INFO] Using worker: gthread
+[2024-03-09 17:04:29 +0530] [4888] [INFO] Booting worker with pid: 4888
+[2024-03-09 17:04:30 +0530] [4889] [INFO] Booting worker with pid: 4889
+[2024-03-09 17:04:30 +0530] [4890] [INFO] Booting worker with pid: 4890
+[2024-03-09 17:04:30 +0530] [4891] [INFO] Booting worker with pid: 4891
+[2024-03-09 17:04:38 +0530] [4887] [INFO] Handling signal: int
+[2024-03-09 17:04:38 +0530] [4891] [INFO] Worker exiting (pid: 4891)
+[2024-03-09 17:04:38 +0530] [4889] [INFO] Worker exiting (pid: 4889)
+[2024-03-09 17:04:38 +0530] [4890] [INFO] Worker exiting (pid: 4890)
+[2024-03-09 17:04:38 +0530] [4888] [INFO] Worker exiting (pid: 4888)
+[2024-03-09 17:04:38 +0530] [4887] [INFO] Shutting down: Master
+[2024-03-10 10:48:32 +0530] [3469] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 10:48:32 +0530] [3469] [INFO] Listening at: http://127.0.0.1:5000 (3469)
+[2024-03-10 10:48:32 +0530] [3469] [INFO] Using worker: gthread
+[2024-03-10 10:48:32 +0530] [3470] [INFO] Booting worker with pid: 3470
+[2024-03-10 10:48:32 +0530] [3471] [INFO] Booting worker with pid: 3471
+[2024-03-10 10:48:32 +0530] [3472] [INFO] Booting worker with pid: 3472
+[2024-03-10 10:48:32 +0530] [3473] [INFO] Booting worker with pid: 3473
+[2024-03-10 11:01:39 +0530] [3469] [INFO] Handling signal: int
+[2024-03-10 11:01:39 +0530] [3472] [INFO] Worker exiting (pid: 3472)
+[2024-03-10 11:01:39 +0530] [3471] [INFO] Worker exiting (pid: 3471)
+[2024-03-10 11:01:39 +0530] [3470] [INFO] Worker exiting (pid: 3470)
+[2024-03-10 11:01:39 +0530] [3473] [INFO] Worker exiting (pid: 3473)
+[2024-03-10 11:01:39 +0530] [3469] [INFO] Shutting down: Master
+[2024-03-10 11:01:41 +0530] [4328] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 11:01:41 +0530] [4328] [INFO] Listening at: http://127.0.0.1:5000 (4328)
+[2024-03-10 11:01:41 +0530] [4328] [INFO] Using worker: gthread
+[2024-03-10 11:01:41 +0530] [4329] [INFO] Booting worker with pid: 4329
+[2024-03-10 11:01:41 +0530] [4330] [INFO] Booting worker with pid: 4330
+[2024-03-10 11:01:41 +0530] [4331] [INFO] Booting worker with pid: 4331
+[2024-03-10 11:01:41 +0530] [4332] [INFO] Booting worker with pid: 4332
+[2024-03-10 11:01:55 +0530] [4328] [INFO] Handling signal: int
+[2024-03-10 11:01:55 +0530] [4329] [INFO] Worker exiting (pid: 4329)
+[2024-03-10 11:01:55 +0530] [4331] [INFO] Worker exiting (pid: 4331)
+[2024-03-10 11:01:55 +0530] [4330] [INFO] Worker exiting (pid: 4330)
+[2024-03-10 11:01:55 +0530] [4332] [INFO] Worker exiting (pid: 4332)
+[2024-03-10 11:01:55 +0530] [4328] [INFO] Shutting down: Master

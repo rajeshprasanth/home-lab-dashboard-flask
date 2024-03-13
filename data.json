@@ -1,0 +1,170 @@
+[
+    {
+        "Category": "Network",
+        "Label": "Router 1",
+        "Icon": "static/logos/Wireless_Router.svg",
+        "Link1": "http://wlsrt.inet0.internal.das",
+        "Link2": "http://192.168.1.1"
+    },
+    {
+        "Category": "Network",
+        "Label": "Router 2",
+        "Icon": "static/logos/Wireless_Router.svg",
+        "Link1": "http://wlsrt.inet1.internal.das",
+        "Link2": "http://10.0.0.1"
+    },
+    {
+        "Category": "Network",
+        "Label": "Switch 1",
+        "Icon": "static/logos/Switch.svg",
+        "Link1": "http://sw1.internal.das",
+        "Link2": "http://10.0.0.2"
+    },
+    {
+        "Category": "Network",
+        "Label": "Switch 2",
+        "Icon": "static/logos/Switch.svg",
+        "Link1": "http://sw1.internal.das",
+        "Link2": "http://10.0.0.3"
+    },
+    {
+        "Category": "RemoteAccess",
+        "Label": "PLPBTH001",
+        "Icon": "static/logos/Dell.svg",
+        "Link1": "http://plpbth001.rm.internal.das/",
+        "Link2": "http://10.0.0.11/"
+    },
+    {
+        "Category": "RemoteAccess",
+        "Label": "PLPESX001",
+        "Icon": "static/logos/HP.svg",
+        "Link1": "http://plpesx001.rm.internal.das/",
+        "Link2": "http://10.0.0.21/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPBTH001",
+        "Icon": "static/logos/Cockpit.png",
+        "Link1": "http://plpbth001.cockpit.internal.das/",
+        "Link2": "http://10.0.0.10:9090/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPLBR001",
+        "Icon": "static/logos/Cockpit.png",
+        "Link1": "http://plplbr001.cockpit.internal.das/",
+        "Link2": "http://10.0.0.50:9090/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPLBR002",
+        "Icon": "static/logos/Cockpit.png",
+        "Link1": "http://plpbth002.cockpit.internal.das/",
+        "Link2": "http://10.0.0.60:9090/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPBTH001",
+        "Icon": "static/logos/Monit.png",
+        "Link1": "http://plpbth001.monit.internal.das/",
+        "Link2": "http://10.0.0.10:2812/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPLBR001",
+        "Icon": "static/logos/Monit.png",
+        "Link1": "http://plplbr001.monit.internal.das/",
+        "Link2": "http://10.0.0.50:2812/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "PLPLBR002",
+        "Icon": "static/logos/Monit.png",
+        "Link1": "http://plplbr001.monit.internal.das/",
+        "Link2": "http://10.0.0.60:2812/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Zabbix Prod",
+        "Icon": "static/logos/Zabbix.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Zabbix Dev",
+        "Icon": "static/logos/Zabbix.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Alert Monitor Prod",
+        "Icon": "static/logos/Alert.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Alert Monitor Dev",
+        "Icon": "static/logos/Alert.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Grafana Prod",
+        "Icon": "static/logos/Grafana.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Grafana Dev",
+        "Icon": "static/logos/Grafana.svg",
+        "Link1": "http://wlsrt.inet0.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "HAProxy",
+        "Icon": "static/logos/Haproxy.png",
+        "Link1": "http://plplbr001.haproxy.internal.das/",
+        "Link2": "http://192.168.1.1/"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Pi-Hole",
+        "Icon": "static/logos/Pihole.png",
+        "Link1": "http://plplbr001.pi.internal.das/admin",
+        "Link2": "http://10.0.0.50/admin"
+    },
+    {
+        "Category": "Infrastructure",
+        "Label": "Pi-Hole",
+        "Icon": "static/logos/Pihole.png",
+        "Link1": "http://plplbr002.pi.internal.das/admin",
+        "Link2": "http://10.0.0.60/admin"
+    },
+    {
+        "Category": "Storage",
+        "Label": "PUPNAS001",
+        "Icon": "static/logos/Truenas.svg",
+        "Link1": "http://pupnas001.ui.internal.das/",
+        "Link2": "http://10.0.0.40/"
+    },
+    {
+        "Category": "VirtualMachine",
+        "Label": "PEPESX001",
+        "Icon": "static/logos/ESXi.jpg",
+        "Link1": "http://pepesx001.ui.internal.das/",
+        "Link2": "http://10.0.0.20/"
+    },
+    {
+        "Category": "VirtualMachine",
+        "Label": "PEPESX002",
+        "Icon": "static/logos/ESXi.jpg",
+        "Link1": "http://pepesx002.ui.internal.das/",
+        "Link2": "http://10.0.0.30/"
+    }
+]
